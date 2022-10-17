@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>21 Blackjack</title>
+    <link rel="stylesheet" href="./css/mobil.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 425px)">
+    <link rel="stylesheet" href="./css/desktop.css" media="(min-width: 1024px)">
+</head>
+<body>
+    <header>Blackjack</header>
+    <section class="computer_area">
+        <div class="computer_score">
+                <h2></h2>
+        </div>
+        <div class="computer_game">
+                <div class="circle_1"></div>
+                <div id="computador-cartas" class="circle_2">
+                    <!-- <img src="./Assets/cartas/10C.png" alt="carta"> -->
+                </div>
+        </div>
+        <div class="baraja_completa">
+                <img class="baraja_red" src="./Assets/cartas/red_back.png" alt="carta">
+        </div>
+    </section>
+    <section>
+        <div class="line_up"></div>
+        <h2 class="brand">CHRISTIAN PALACE</h2>
+        <div class="line_down"></div>
+    </section>
+    <section class="player_area">
+        <div class="player_score">
+            <h2></h2>
+        </div>
+        <div class="player_game">
+            <div class="circle_1"></div>
+            <div id="jugador-cartas" class="circle_2">
+                <!-- <img src="./Assets/cartas/10C.png" alt="carta">
+                <img src="./Assets/cartas/10D.png" alt="carta"> -->
+            </div>
+        </div>
+        <div class="bet">
+            <h2>Apuesta: <br>$</h2>
+        </div>
+    </section>
+    <section class="buttons">
+        <button id="btnNuevo" class="button new_game">Nuevo Juego</button>
+        <button id="btnPedir" class="button pedir_carta">Pedir</button>
+        <button id="btnDetener" class="button stop">Detener</button>
+    </section>
+    <footer>
+        <span>Efectivo disponible $500.00</span>
+        <button id="btnApostar">Apostar</button>
+    </footer>
+    <script src="./js/underscore.js"></script>
+    <script src="./js/juego.js"></script>
+</body>
+</html> 

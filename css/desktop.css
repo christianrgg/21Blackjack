@@ -1,0 +1,33 @@
+header {
+    font-size: 45px;
+}
+.computer_area, .player_area {
+    height: 190px;
+}
+.computer_score, .player_score {
+    width: 67px;
+    height: 67px;
+}
+.computer_score h2, .player_score h2 {
+    font-size: 32px;
+}
+.computer_game .circle_1, .player_game .circle_1 {
+    width: 171px;
+    height: 171px;
+}
+.computer_game .circle_2, .player_game .circle_2 {
+    width: 147px;
+    height: 147px;
+}
+.computer_game .circle_2 img,  .player_game .circle_2 img {
+    width: 89px;
+    height: 136px;
+}
+.baraja_completa img {
+    width: 89px;
+    height: 136px;
+}
+.line_up, .line_down {
+    width: 957px;
+    height: 17px;
+}

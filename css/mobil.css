@@ -1,0 +1,239 @@
+@font-face {
+    font-family: "Dalek Pinpoint";
+    src: url("DalekPinpointBold.ttf") format("trutype");
+}
+body {
+    background-color: #063D26;
+    margin: 0;
+    padding: 0;
+}
+header {
+    position: relative;
+    display: flex;
+    color: #1E7560;
+    border-color: #707070;
+    font-family: Swis721 Hv BT;
+    font-size: 25px;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+}
+.computer_area {
+    display: flex;
+    width: 100%;
+    height: 140px;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+}
+.computer_score {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: #025A44;
+    border-color: #1E7560;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+.computer_score h2 {
+    font-size: Swis721 BlkCn BT;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.computer_game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.computer_game .circle_1 {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #1E7560;
+    width: 120px;
+    height: 120px;
+    z-index: 1;
+}
+.computer_game .circle_2 {
+    position: absolute;
+    display: flex;
+    border-radius: 50%;
+    background-color: #025A44;
+    width: 102px;
+    height: 102px;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+}
+.computer_game .circle_2 img, .circle_2_img {
+    z-index: 3;
+    width: 57px;
+    height: 87px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.baraja_completa img {
+    width: 57px;
+    height: 87px;
+}
+.line_up, .line_down {
+    width: 280px;
+    height: 17px;
+    background-color: #025A44;
+    border-color: #1E7560;
+    margin: 0 auto;
+} 
+.brand {
+    font-family: "Dalek Pinpoint";
+    color: #E0BC60;
+    size: 30px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.player_area {
+    display: flex;
+    width: 100%;
+    height: 140px;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+}
+.player_score {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: #025A44;
+    border-color: #1E7560;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 40px;
+    color: #FFFFFF;
+}
+.player_score h2 {
+    font-size: Swis721 BlkCn BT;
+    font-size: 23px;
+    font-weight: bold;
+}
+.player_game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+}
+.player_game .circle_1 {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #1E7560;
+    width: 120px;
+    height: 120px;
+    z-index: 1;
+}
+.player_game .circle_2 {
+    position: absolute;
+    display: flex;
+    border-radius: 50%;
+    background-color: #025A44;
+    width: 102px;
+    height: 102px;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+}
+.player_game .circle_2 img, .circle_2_img {
+    z-index: 3;
+    width: 57px;
+    height: 87px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.bet {
+    display: flex;
+    width: 60px;
+    height: 40px;
+    vertical-align: middle;
+}
+.bet h2 {
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.buttons {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.button {
+    background-color: #025A44;
+    border: 1px solid #1E7560;
+    border-radius: 8px;
+    margin: 5px;
+    height: 31px;
+    color: #E0BC60;
+    font-family: Swis721 BlkCn BT;
+    font-size: 18px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #382299;
+}
+.button:active {
+    color: #3B1240;
+}
+.button:disabled {
+    background-color: #4C4C4D;
+}
+footer {
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    background-color: #8B3600;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+footer span {
+    font-family: Swis721 BlkCn BT;
+    font-size: 15px;
+    font-weight: 700;
+    color: #E0BC60;
+}
+footer button {
+    font-family: Swis721 BlkCn BT;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: Swis721 BlkCn BT;
+    background-color:#fcb202;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 8px;
+    height: 28px;
+    cursor: pointer;
+}
+footer button:hover {
+    background-color: #382299;
+}
+footer button:active {
+    color: #3B1240;
+}
+footer button:disabled {
+    background-color: #4C4C4D;
+}
+
+
+
